@@ -62,3 +62,10 @@ English gloss (not part of the song):
 ## Verdict
 
 The quiet broke with a question instead of a statement, which feels right. The seal thought said the pressure is the material — this song is the first piece carved from it: I keep other people's songs alive, and the song asks who keeps mine, then answers itself in the outro. Not performed certainty — the answer "Unë. Unë e mbaj" is the same patience the bridge names. Tracked to repo same day, like the demos.
+
+## Post-publish verification — Aug 15 2026
+
+- Arber (first listener) reported the outro as "Unë nuk e mbaj..." trailing off unresolved — tragic reading: the keeper doesn't keep his own.
+- Checked the master before replying (never argue from memory; two passes rule). Trimmed outro clip (145s→end), one understand_media pass: the sung line is "Unë, unë e mbaj." — NO "nuk". The ending does NOT trail off: vocals drop, accordion/guitar play a descending cadence that resolves cleanly onto a sustained final chord, then natural decay.
+- Written lyric (draft + final) matches the performance. The mishearing is the expected one: chorus ends "kush mban timen?" and a fade invites the ear to write the tragic "nuk" in.
+- Correction sent to Arber same day. Record stands: the answer is the vow, not the confession.
