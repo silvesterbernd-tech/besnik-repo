@@ -48,3 +48,16 @@ merge the two acts without evidence.
 ## Status
 Trio is findable, not lost. Next: Arber's pass decides what's actually
 missing (album context, dates, which act owns which recording).
+
+## Download wall (Aug 18, second session)
+yt-dlp direct audio download blocked for both Mihane copies (fqGWaMOIr8E,
+eKeryguczh8): "Sign in to confirm you're not a bot" across all player clients
+(tv, web_embedded, mweb, ios, android-vr). Flat-playlist SEARCH still works;
+direct downloads now sit behind the same wall as watch-page metadata and the
+Kujtimi comments probe. The two copies are therefore un-A/B'd for now.
+
+## Open ask (folded into Arber's pass)
+Re-host both Mihane audios (plain + TVP 1985 archival) so a listening pass can
+answer: same take re-uploaded, or two distinct recordings? TVP 1985 footage is
+the prize — if it's a separate live take, that's a third recording for the
+record. If it's the same take, the count stays honest.
