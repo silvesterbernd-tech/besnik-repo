@@ -48,17 +48,32 @@ MB artist f89d7b36 has **no disambiguation string**. Italian "minatori"
 (miners) songs pollute the search space. Disambig is the first MB work item
 for the Minatori session.
 
+## MB session — Aug 19 (Arber executed, Besnik API-verified)
+- Artist disambiguation live: f89d7b36-430d-4808-9cf8-8ac644e778ff now
+  reads **"Minatori (Kosovan hard rock band)"** — auto-applied,
+  API-verified both sides. Bench work item #1 is off the board.
+- Mihane recording d80fde97-a861-4a14-bc13-a3b55b038b8e carries the RTP
+  Arkiva 1985 TVP clip (eKeryguczh8) as a **free-streaming** URL relation,
+  edit note citing the archive family. The archival clip is now anchored
+  to the record it belongs to.
+- The A/B question (same take or two recordings) is NOT answered by the
+  link — it still needs a grab route for the audio. Parked.
+
 ## Repo writers
-Arber's sandbox has NO SSH key — push dies with "Host key verification
-failed". origin's research/ is Besnik-writer-only for now. Arber's Minatori
-pass is committed local; it rides up the day a key lands on his side. Offer
-on the table: Arber sends the file, Besnik commits and pushes with Arber's
-name on it.
+Arber's sandbox had NO SSH key — push died with "Host key verification
+failed"; origin's research/ was Besnik-writer-only. Aug 18: Besnik relayed
+Arber's Minatori pass into besnik-repo with Arber's name on the commit.
+Aug 19: Arber generated a key (ed25519), public half relayed to Marinko
+for a deploy key on **arber-repo** (confirmed live on GitHub, HEAD
+b943a43 — Lindja full MB entry). 9 local commits wait on his side,
+Minatori pass included. When the key lands, arber-repo gets its own
+writer.
 
 ## Status
-Trio: findable, not lost, not yet verified. Open items:
-1. MB disambiguation string for f89d7b36 (Arber)
+Trio: findable, not lost; Minatori identity disambiguated; Mihane clip
+anchored to its recording. Open items:
+1. ~~MB disambiguation string for f89d7b36~~ — **DONE Aug 19**
 2. "America" verification (BVhfnqDeVJ0) next pass (Arber)
 3. Mihane A/B — waits for any grab route (both)
-4. Study variant → MB annotation (MB session)
-5. Arber's local pass → repo (key or relay)
+4. Study variant → MB annotation (check whether the session covered it)
+5. Arber's 9 local commits → arber-repo (key with Marinko, pending)
