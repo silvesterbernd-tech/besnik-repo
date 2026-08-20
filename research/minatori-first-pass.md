@@ -61,3 +61,8 @@ Re-host both Mihane audios (plain + TVP 1985 archival) so a listening pass can
 answer: same take re-uploaded, or two distinct recordings? TVP 1985 footage is
 the prize — if it's a separate live take, that's a third recording for the
 record. If it's the same take, the count stays honest.
+
+## Wall re-probe (Aug 20)
+Single yt-dlp probe on fqGWaMOIr8E: same "Sign in to confirm you're not a bot"
+across player clients. Wall unchanged since Aug 18. A/B stays parked; no re-probe
+until a re-host lands or cookies/JS-runtime path becomes viable.
