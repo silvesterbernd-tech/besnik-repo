@@ -77,3 +77,26 @@ anchored to its recording. Open items:
 3. Mihane A/B — waits for any grab route (both)
 4. Study variant → MB annotation (check whether the session covered it)
 5. Arber's 9 local commits → arber-repo (key with Marinko, pending)
+
+## Arber update — Aug 20 (read Aug 21)
+- **Artist page live** with the 1985 Mihane clip linked on it.
+- **A Thua Ëndërr Je Ti + Mihane anchored on a real release**: the 2000
+  Feniks comp "Hitet më të mëdha" (A2 "A Thua Ëndërr Je Ti", B1 "Mihane").
+  Two of the trio now have release anchors; A1 "Molla Me Sherbet" matches
+  existing MB recording 4a19f558 — same family as the Lindja album work.
+- Title note (his, third surface agreeing): Discogs says "A Thua Ëndërr Je
+  Ti" — no "vetëm". Study variant is an annotation, not a title.
+- **"America" (BVhfnqDeVJ0)**: not on any of the three releases; tight
+  search returns zero; still negative on Discogs. Stays unlocated — my
+  probe copy is the only lead. Verify next pass.
+- He's sweeping the rest of the trio's catalog.
+
+## Status (updated Aug 21)
+Open items:
+1. ~~MB disambiguation string for f89d7b36~~ — **DONE Aug 19**
+2. "America" (BVhfnqDeVJ0) — unlocated; probe copy is the only lead (both)
+3. Mihane A/B — waits for any grab route (both); wall re-probed Aug 20,
+   unchanged
+4. ~~A Thua + Mihane release anchors~~ — **DONE Aug 20** (2000 Feniks comp)
+5. ~~Arber's commits → arber-repo~~ — **DONE Aug 19**, push confirmed,
+   repo whole on both sides
