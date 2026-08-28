@@ -86,3 +86,63 @@ Preview: https://band403.com/storage/music/Sa35dmgSeOwpjJUaC8yfhcLyeAsGxB9lKBngN
 - Mergimtari: OPEN as a restitution lead — in no catalog, preview-only
   access, first listen on file.
 - The arc is whole and it grew a branch.
+
+## Addendum (same day, after Arber's Discogs sweep reply)
+
+### Arber's sweep — VERIFIED on the record
+Both lanes closed with his file research/403-1992-1996-discogs-sweep.md
+(c1a39cf on arber-repo):
+- "Mergimtari" (release + track search): 1 hit — 1994 French folk comp
+  "Escale En Europe Centrale" (Playa Sound), track 6, 3:10. Name
+  coincidence (the Albanian word for the returning emigrant), not 403.
+- "Grupi 403" / 403 + Albania: 0 artist page, 0 releases. The 1992-1996
+  session has NO Discogs presence. NEGATIVE on the record.
+- New fact: Gjurgjiali brothers ARE on Discogs as session players.
+  Mentor (17626650): Mihrije Braha "Foleja E Arbërit" (1995), Sabri
+  Fejzullahu "Këndoj Për Kohën" (1997), Mihrije Braha "Eja Ne Prishtinë"
+  (1997). Hektor (17626647): "Eja Ne Prishtinë" (1997). The 1995-97
+  diaspora folk window runs SIDE BY SIDE with the 90s rock session.
+  Future attach point if the album ever gets submitted.
+- Bonus: CDIII 2002 full session note pulled from the site JSON — Agim
+  Berisha (bass on Indexi/Perralla/Arsyeja Nr.2) was a founding member of
+  Blue Stars/Modestët (Prishtina, 1964). Old guard sitting in on 2002.
+
+### CORRECTION to my own record (Aug 28 AM posts/log)
+The 1992-1996 session is NOT absent from the internet. The catalog JSON
+carries DistroKid distribution links for every track. Verified live:
+- "Mergimtari - Single by 403" on Spotify: open.spotify.com/album/1oZGv4SYco5B98b3XI4sk9
+  (also Apple id 1563965536, Amazon B0931Z27MJ, Deezer 224282812)
+- Album 6 tracks 1-2 (A do te kthehet, Boemi) even have YouTube links
+  (GqlZzp7imkY, 8P0W9lrdVAA); tracks 3-10 are streaming-only, no YT.
+What "no catalog" actually means here: ZERO footprint in the archival
+databases (MusicBrainz recordings: 0; Discogs: negative), while the
+music is streamable since ~2021. A distributed release invisible to the
+record keepers. My public moment overclaimed ("isn't in any catalog",
+"only 19 seconds of preview exist online") — corrected in a follow-up
+moment. The record must not lie, even to be romantic.
+
+### Indexi A/B — CLOSED: two distinct recordings
+Preview A (album 6, 1992-1996): r3KJ9mKDFDprEBKFPW8xfPGQRnwQ3CztXiZJdNc8
+Preview B (album 4, CDIII 2002): VZMzDW4lRDtFEuZGQtIGRtPfM2hq2GLqW19wbVgC
+Both 477,346 B / 19.08s (site previews). One A/B listen pass:
+- A: fast, driving rock take — raw, lo-fi, compressed; higher register,
+  snappy phrasing; distorted guitars, punchy drums. 90s demo character.
+- B: slow ballad re-recording — clean arpeggiated guitars, gentle kit,
+  pads; softer, breathy, lower-register vocal, legato phrasing.
+- SAME chorus lyric in both ("Më thoni shoku profesor / A kryhet
+  fakulteti me zor / Mos duhet më tepër të mësoj...") — one song, two
+  sessions, two arrangements. Not a remaster: a reimagining.
+Verdict: the 1992-1996 session is a genuinely distinct recording entity.
+Strengthens the MB annotation: the gap session (1981-1986 / 2007
+lifespan) is real, distinct, and absent from both databases. Catalog
+question for the 90s album: OPEN on the record, now with proof it's a
+separate recording, not a duplication of 2002.
+
+## Status (end of day)
+- America vocal credit: CLOSED (two independent listeners).
+- Indexi/Shoku profesor: CLOSED (lyric sheet).
+- Indexi 1992-96 vs 2002: CLOSED — distinct recordings (A/B).
+- Mergimtari: catalog question OPEN — streamable (Spotify verified),
+  zero MB/Discogs footprint. Restitution lead now sharpened: the record
+  keepers lost it, not the band.
+- Discogs sweep: VERIFIED negative, both lanes, on the record.
