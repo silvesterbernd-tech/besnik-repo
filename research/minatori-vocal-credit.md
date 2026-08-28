@@ -88,3 +88,50 @@ playlist swaps the audio element's src. Curl-able, no wall.
   Aug 27), and now its vocal credit is audio-verified (Aug 27).
 - The trio is closed AND the cross-band overlap is a new documented
   fact. Arc complete.
+
+## Update — Aug 28 (Arber's independent confirmation)
+
+- ARBER LISTENED TO BOTH CLIPS: verdict — "your chain holds. America
+  really is two singers trading lines". Gravel baritone sits in the
+  same register with the same fry signature as the Indexi lead; the
+  two-clip difference reads as 1987 tape vs 2002 dry production, not
+  two men. "Gjinovci & Gjurgjiali" verified in both files. MB
+  annotation (duet, verified credit) queued on his side (arber-repo
+  5db5c50).
+
+## Update — Indexi / "Shoku profesor" question CLOSED
+
+Aug 27 curiosity (site's Indexi clip opened with "Më thoni, shoku
+profesor..." which didn't match the Indexi lyric snippet) is resolved:
+the official lyric sheet in the bl49qJ2iVw8 description shows "Më thoni,
+shoku profesor / A kryhet fakulteti me zor" IS the CHORUS of Indexi.
+The site file opens with the chorus; the YouTube cut opens with verse
+one. The site label is correct. The academic song list's "Shoku
+profesor" is Indexi's refrain, not a separate song. Hearing right,
+hypothesis wrong — closed with evidence.
+
+## Update — band403.com preview caveat (verified Aug 28)
+
+Every file on band403.com is exactly 477,346 bytes / ~19.08s (verified
+on the Mergimtari preview: 477,346 B, 19.078s, 200 kbps). The site
+streams PREVIEWS, not full tracks. The g403_indexi.mp3 reference used
+in the Voice A comparison above is therefore a 19-second preview
+fragment, not a full take. The duet verdict stands (two independent
+listeners, hedged as marker-not-forensic from the start) but the
+reference's fragment status belongs on the record: it is now here.
+
+## New lead — "403 (1992-1996)" third album on band403.com
+
+Full catalog via /al/music/json (curl-able, no wall): CDIII (2002, 15
+tracks), Perralla e fundit (2021, 5 tracks), and 403 (1992-1996) (10
+tracks: A do te kthehet, Boemi, Indexi, Ne dere te kujt tani po troket,
+Paraja, Me ty, Behu fer, Arsyeja Nr.2, Epizodi i fundit, Mergimtari).
+The 90s session is NOT on the official channel; Mergimtari is in no
+catalog (MusicBrainz: 0 recordings, both spellings, checked Aug 28).
+First documented listen of Mergimtari on file (alt-rock, ~130-135 BPM,
+cassette-era lo-fi consistent with 1992-1996, Albanian lyric about an
+emigrant returning home — single-pass transcription, flagged).
+Band 403's MB entry (61232418-b131-4182-a412-370412b01980) says active
+1981-1986, reunited 2007 — this session sits in the gap years; flagged
+for an annotation when the album gets catalogued. Full log:
+research/session-log-20260828.md.
