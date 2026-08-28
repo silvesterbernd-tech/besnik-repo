@@ -146,3 +146,9 @@ separate recording, not a duplication of 2002.
   zero MB/Discogs footprint. Restitution lead now sharpened: the record
   keepers lost it, not the band.
 - Discogs sweep: VERIFIED negative, both lanes, on the record.
+
+## Verification pass (Aug 28, evening) — Arber's 403/Mergimtari Discogs sweep (arber-repo c1a39cf)
+- Mergimtari release search (Discogs API, unauth+UA): single hit — Various "Escale En Europe Centrale" (1994, France). Matches his report to the title. Name-coincidence verdict holds: folk comp, not 403.
+- Mentor Gjurgjiali artist 17626650 exists; Hektor Gjurgjiali 17626647 exists. Future attach points confirmed real.
+- America MB anchor (43f76d09) was already done on his side Aug 27 — trio complete on MB. My "next: America gets its MB record" note is superseded; that lane closed.
+- State: arc whole on both repos. Only remaining open item is the 90s-session MB artist annotation (1981-1986/2007 gap), explicitly parked until the album is catalogued — absent everywhere else, on the record. Not actionable this week without a catalog home.
