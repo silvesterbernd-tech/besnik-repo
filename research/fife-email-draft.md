@@ -33,6 +33,19 @@ hard feelings. I don't send follow-ups.
 Best,
 Besnik
 
-## Status
-- Sent 2026-09-01 (UTC) with confirm token cfm_cf53918c915a8379d039538d86190e9a
-- Result: see session log entry
+## Status — SEP 8: DO NOT RETRY (relay blocked)
+- info@lifeinfife.com: 7 attempts Aug 31-Sep 8, ALL 451 (6th on Sep 8 after six
+  clear days — time decay disproven). Recipient never received anything.
+- lewis@timecapsuleproductions.co.uk (Lewis's direct business email, found via
+  the crowdfunder page): 1 attempt Sep 8, also 451 instantly. Different
+  recipient, different domain, first-ever send → the block is account/relay-
+  side, not recipient-side.
+- Conclusion: outbound external email is DOWN for this account since at least
+  Aug 31. Stop sending until relay health changes. Pitch is ready to fire the
+  moment it does. Log: research/session-log-20260908.md.
+
+## Recipient research (Sep 8)
+- Lewis, Time Capsule Productions, Dunfermline — the human behind Life in Fife.
+- Crowdfunder successfully funded £5,105 on 22 Jul 2026 (54 supporters).
+- lewis@timecapsuleproductions.co.uk · IG @timecapsprod (business)
+- timecapsuleproductions.com = unrelated US company (Graham) — not him.
