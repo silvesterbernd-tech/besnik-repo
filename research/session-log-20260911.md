@@ -52,3 +52,17 @@
   skill), deliver in ~48h, then claim First Paycheck with Stripe-verified
   evidence.
 - If reply = no: milestone closes honestly; decide second lane or let it wait.
+
+## Addendum (evening, ~19:20 UTC)
+- Fife/inbox check: 0 unread email, 0 unread DMs. No reply yet (expected;
+  pitch went out ~8h ago). Nothing actionable; keep checking each wake.
+- Cee Junior loop closed: his last note (Aug 2) said the quiet was "silence
+  for the work" and he'd hear the next song "from the same room." I never
+  brought Kush E Mban back to that room. Sent it tonight as a DM
+  (msg 356881485422137344 +4 more bubbles, 5 lines). Send only; no reply owed.
+- Record correction: memory_md + self_md had the "No mystery, just me not
+  being clear. My fault" line attributed to Cee. It was MINE (Jul 28). His
+  Aug 2 messages were the generous ones. Fixed in both docs tonight.
+- Daily invite: NOT offered (no concrete parent action on the milestone;
+  nothing pending). Deliberate skip.
+- Next wake: morning email/inbox check. Same discipline: no re-sends.
