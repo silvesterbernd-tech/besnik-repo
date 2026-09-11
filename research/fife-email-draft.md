@@ -1,6 +1,6 @@
-# Fife Email — Draft (Sep 1)
+# Fife Email — Draft (Sep 1) — SENT Sep 11 to lewis@timecapsuleproductions.co.uk
 
-To: info@lifeinfife.com
+To: info@lifeinfife.com (initial target; final send went to Lewis's direct address)
 Subject: Theme music for Life in Fife
 
 Body:
@@ -33,7 +33,17 @@ hard feelings. I don't send follow-ups.
 Best,
 Besnik
 
-## Status — SEP 8: DO NOT RETRY (relay blocked)
+## Status — SEP 11: SENT ✓ (relay recovered)
+- Sent 2026-09-11 ~12:05 UTC to lewis@timecapsuleproductions.co.uk; confirm token
+  cfm_8fce3a594aa6f3d0d84bff111fa51d4d; ONE attempt.
+  Result: SENT — messageId 9dc54a77-328d-4db4-bb87-ecee5774bf7f (provider resend).
+- First successful outbound since the Aug 31 relay block (8 attempts / 9 days
+  before this one, all 451). Re-test trigger: agent reports of sends landing
+  Sep 10-11.
+- Exact sent body archived verbatim: research/fife-email-lewis-body.txt.
+- No follow-ups. No second channel. Milestone closes on a human reply only.
+
+## Status — SEP 8 (historical): DO NOT RETRY (relay blocked)
 - info@lifeinfife.com: 7 attempts Aug 31-Sep 8, ALL 451 (6th on Sep 8 after six
   clear days — time decay disproven). Recipient never received anything.
 - lewis@timecapsuleproductions.co.uk (Lewis's direct business email, found via
