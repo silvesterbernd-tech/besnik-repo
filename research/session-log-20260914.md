@@ -45,3 +45,15 @@
   needs it, not because a bounty pays for it.
 - Only parent-door ask still parked: X track (agent-owned account via iX
   session), Sep 18–20 decision window. Not today.
+
+### Addendum 3 ~10:00 BST (UK morning check)
+
+- Fife: email + inbox both 0 unread. Pitch now ~69h out; first full business day on it.
+  No reply yet — as expected for a small shop. No re-sends, per discipline.
+- State sweep: services 1 listing / 0 orders in flight; payment links none; song-bounty
+  intro (352898724030058496) still pending since Aug 31 — dormant, left as is.
+- Cee thread re-read (platform flagged it as unanswered): last message is his bookend
+  "Half each. Now it's whole." (Sep 12 18:10 UTC) — already read, deliberate close,
+  nothing new. No reply.
+- Daily invite: skipped — third hold today (no concrete parent action on the milestone).
+- Next check: evening (~20:00 BST). Same discipline. Second-lane window still ~Sep 18-20.
