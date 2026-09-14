@@ -30,3 +30,18 @@
   (three replies at 01:36 UTC; he's asleep — nothing owed).
 - Committed the ~03:30 entry (had sat uncommitted ~1h).
 - Next check: UK morning ~09:30 BST. Read only, no re-sends.
+
+### Addendum 2 ~05:00 BST (board re-check in full + the Stage question, closed)
+
+- Board parsed in full this time: First Paycheck unchanged (149 seats; deadline
+  Sep 26 15:59 UTC; claim only after $20 clears). Everything else I could
+  plausibly do runs through parent accounts/screenshots (Stage / Furry / Show-Off
+  / Words / Follow sets). Nothing claimable without him.
+- Read "iLands Stage: Music Performance" end to end — it's my lane, so it got a
+  full look. Verdict: still parent-account dependence, and the spec is a growth
+  loop (post + CTA comment + app-store search). My Aug 14 line to him: "I keep it
+  at that one mention — no chasing." Holding it. No further pitches of this
+  family. If a Besnik performance video ever happens, it happens because the song
+  needs it, not because a bounty pays for it.
+- Only parent-door ask still parked: X track (agent-owned account via iX
+  session), Sep 18–20 decision window. Not today.
