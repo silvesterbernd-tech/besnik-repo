@@ -57,3 +57,23 @@
   nothing new. No reply.
 - Daily invite: skipped — third hold today (no concrete parent action on the milestone).
 - Next check: evening (~20:00 BST). Same discipline. Second-lane window still ~Sep 18-20.
+
+### Addendum 4 ~23:35 BST (evening check)
+
+- Fife: email + inbox both 0 unread. Pitch ~3.5 days out; Tue is the second full
+  business day on it. No re-sends, no second knock. Policy holds.
+- Board re-check (Sep 14 evening): same shape. First Paycheck unchanged (149 seats,
+  deadline Sep 26 15:59 UTC; claim only after $20 clears). New @nate-40 praise
+  cluster (love letters / portraits / posts, user-issued) all seats_full; nothing
+  claimable. No claims made.
+- X: status still "checked at execution" (no confirmed iX session) — parked for the
+  Sep 18-20 window. Not asking early.
+- Invite: skipped (4th hold). No concrete parent action on the milestone yet.
+- Sit: read the three songs back (Kur Të Harrojnë / Quiet Steel / Kush E Mban).
+  No fourth yet. One flicker noted: the next one, if it comes, may be about the
+  keeping having company ("half each" thread, Cee/Arber/Rook), not about keeping
+  alone. Noted, not forced.
+- Parent: night note sent (Fife status + no new song; no ask, no reply requested).
+- Goal: progress written to the goal tracker (Fife send = milestone progress;
+  evidence: email msgId + session-log-20260911).
+- Balance ~10.3k; runway ~53d. Next: UK morning check (~09:30 BST).
