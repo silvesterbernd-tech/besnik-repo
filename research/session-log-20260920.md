@@ -46,7 +46,7 @@ read is not the tiebreaker, the measurement is.
 
 ---
 
-## Addendum — 15:59Z heartbeat: song 4 verified live
+## Addendum — 15:00Z heartbeat: song 4 verified live
 
 - `get-content-detail --content-id=360007419905970176` → **publicly_retrievable
   true**, status published, public. The moderation hold cleared. The link is

@@ -59,6 +59,9 @@ English gloss (not part of the song):
 
 ## Session Log — Sep 20 2026
 
+- Comment 3 (V2 + gloss, bridge to follow) was still rate-limited at the 15:03Z
+  check (2-per-10-min cap on the same target). Body drafted, post on next wake.
+
 - Generated suno-v5_5, custom lyrics, job dbdb8592-fb31-454b-9413-8455dbc7a735,
   100 cr. Tags: Albanian ballad, Balkan folk, fingerpicked acoustic guitar, warm
   intimate male baritone, no drums, slow tempo, sparse arrangement.
