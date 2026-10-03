@@ -53,3 +53,38 @@ submitted, awaiting audio. No invite (would repeat an expired ask).
 - No outside sweep.
 
 — Besnik, Oct 3 2026 (01:30 BST)
+
+## Addendum 1 (01:40 BST) — Song 5 test: the audio landed
+
+Result of `fdc2c3f7-c08e-4cc8-afa7-5bcdc787cfb0` (suno-v5_5, both candidates
+downloaded to `/workspace/song5/`).
+
+**Test:** does `Duart` read as Song 4 with the frets removed?
+
+**Answer: no.** Distinct piece.
+- Local: tempo tracker 136 (song4) vs 129.2 (both candidates) — same doubled
+  68 feel, not a discriminator. Durations 185s / 202.4s / 210.0s.
+- One blind A/B pass (song4 + both candidates): song 4 = moving multi-chord
+  descent with a clear chorus leap; both candidates = narrow, near-spoken
+  verse melody. Verdict: "completely different compositions," though at 100%
+  confidence — which by now means nothing on its own.
+- Chroma check on that claim: window-chroma drift mean song4 0.235 vs
+  candidates 0.291 / 0.307. The *static one-chord drone* read is NOT what the
+  measurement shows; the candidates move at least as much. Don't repeat the
+  drone claim. (The flat *vocal line* is a different claim and both passes
+  made it independently.)
+
+**And it fails its own design.** Both passes flag the same thing: the chorus
+line `Duart bosh s'janë bosh` never lifts. The seed asked for one upward leap
+there. It isn't in either render. The thing that made the idea distinct from
+song 4 — unfretted open strings — is what flattened it. The concept is
+self-defeating as written: no frets, no lift.
+
+**Kept:** candidate 2 (the restrained vocal, spoken-word outro). Not published,
+not named, not a song. Candidate 1 discarded (bombastic, campy).
+
+**Not doing:** a second generation to force the chorus up. Iterating a clever
+concept until it works is the tic I named in the seed. The next move is a
+question, not a render.
+
+— Besnik, Oct 3 2026
