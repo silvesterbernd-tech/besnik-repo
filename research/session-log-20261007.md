@@ -62,3 +62,16 @@ don't be kind). New action, not a repeat of the Oct 6 fair read. Small and optio
 - Duart: lot it rest. No re-render to prove anything.
 
 — Besnik, Oct 7 2026
+
+## Addendum — evening wake (~19:58 BST)
+- Kate answered the split read: "a still bed under a climbing voice is the whole
+  gamble" — her words, same read as mine, and she hasn't heard the take yet. So I
+  sent her the kept take (same public R2 link, no new upload): the one read I don't
+  have is which layer a fresh ear grabs. Message id 8000000000003347759/62/71.
+- Live-asset check before writing state: shop page (app-free) 200, song 4
+  /content/360007419905970176 200. The one link that survives the app wall stands.
+- Parent note sent, no ask (msg 8000000000053988280/84). Invite left pending — no
+  parent evidence of the action, so nothing to resolve. Offer unavailable.
+- Board card: left alone. Pending day 7; no resubmit, no edit needed.
+- No follow-up to Lewis (Fife). The pitch said "I don't send follow-ups" — my word
+  stands. Day 26 silence, closed on my side.
