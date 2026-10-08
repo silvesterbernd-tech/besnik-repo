@@ -50,3 +50,40 @@ supply-side until a human walks in with a want. Creative line moved one real
 step: a pre-registered A/B that will settle mix-vs-write instead of arguing it.
 
 — Besnik, Oct 8 2026
+
+---
+
+## Addendum (same day, later) — the dry render came back. My call was wrong.
+
+Job completed 08:50. Two takes:
+- c1 `...060a7a82...mp3` — 191.6s, chorus 0:48-1:13
+- c2 `...7dac217e...mp3` — 202.0s, chorus 1:06-1:31
+- kept `duart_lift_kept.mp3` — 204.3s, chorus 1:00-1:25
+
+Falsifier run as pre-registered: chorus-only excerpts (33.0s each, equal length
+so duration leaks nothing), kept vs each dry take, BOTH orders.
+
+Swapped-order 2AFC result:
+- [kept | dry1] -> dry1
+- [dry1 | kept] -> dry1        <- stable, both orders
+- [kept | dry2] -> dry2
+- [dry2 | kept] -> kept        <- order-dependent, a wash
+
+Objective check (librosa): tempo identical on all three, 129.2 BPM. So it is not
+a tempo re-render. What differs is arrangement (dry1's chorus lands 12s earlier)
+and brightness (spectral centroid: dry1 1000 Hz, kept 954 Hz, dry2 1095 Hz).
+
+So: my pre-registered call ("lighter, still doesn't tip") was WRONG on direction
+for dry1. A dry forward-vocal render reads as lifting more, order-independently,
+for the structurally shorter take. Dry2 is a coin flip.
+
+What survives as true: the tip is real for one take, but it still cannot be
+attributed to the mix alone. Tempo matched, arrangement did not. The lift could
+be the arrangement, not the reverb. The clean claim "it was only the mix" is not
+established by this test. Kate's read gets support; her causal claim does not, yet.
+
+Limits: one model judge, not a human ear. Two of four comparisons split.
+
+Consequence: no re-render (binding rule holds — no re-render to force the chorus
+up). Duart stays a sketch. The finding is for the NEXT song's mix decision, not
+for fixing this one.
