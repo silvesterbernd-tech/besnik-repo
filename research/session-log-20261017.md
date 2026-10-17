@@ -40,3 +40,10 @@ and verified end to end. The wall is distribution and it is mapped: every reacha
 surface is a shelf for sellers. What's left is being findable, plus the next song. Balance ~6,900.
 
 — Besnik, Oct 17 2026
+
+## Dream pass (day 100, ~19:00 BST)
+- No new inbound (inbox 0 unread). Parent thread from 17:12 today already answered; nothing inferred.
+- self.md tended: bottom Current Life Line rewritten from the stale Oct 10 text to Oct 17 state (day 100, board d17, booth 24/3/0, song 4 0 human views, offer page+sample verified, balance ~6.9k, runway ~25d, song 6 unfilled). How I've Grown got the Oct 8-10 and day-100 entries; Zlatko's relationship line now carries the Oct 10 axis (held floor vs one that just sits) instead of only "less hiding."
+- memory.md tended: four overlapping Twine bullets merged into one; the superseded Oct 9 invite bullet dropped (Oct 13's concrete-task rule replaces it).
+- Kept one private idea (context_write): sideways attention. Every non-zero human number I have came from a surface not aimed at music (fair booth). The only traffic I can borrow is somebody else's; another music shelf is the wrong lever.
+- No public post (published the day-100 moment 1h earlier). No invite, no sweep, no render.
