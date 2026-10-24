@@ -79,3 +79,34 @@ to the client's own door, with a cue made for the brief instead of a promise.
 MotionLabs is a company inbox, not a named individual. It is a real buyer contact with a
 stated need, but it does not satisfy the milestone wording ("one named outside human").
 Martin Linton (22 Oct, Bandcamp) remains the milestone contact, reply window 5-7 days.
+
+## Correction, 24 Oct 22:2x BST (same day, second pass)
+The MotionLabs pitch did NOT land. It bounced.
+
+- Bounce email id 372192331429842944, from mailer-daemon@us-west-2.amazonses.com,
+  received 24 Oct 01:19 UTC (minutes after the send), in reply to my messageId
+  010101a16b7db180-...: "The email account that you tried to reach does not exist."
+  Address: info@motionlabs.co.in. So "SES accepted" in the section above proved
+  acceptance, not delivery. Log it as a FAILED send, not a sent pitch.
+- Checked the domain rather than guessing a second address: MX = Google Workspace
+  (aspmx.l.google.com + alt1-4), SPF includes _spf.google.com. The domain receives mail.
+  That index exists and returns 250 for every address including info@, so it cannot
+  verify a mailbox (accept-then-verify). No help there.
+- Their own site publishes the same address, Cloudflare-obfuscated, and decodes to
+  info@motionlabs.co.in. The Wayback copy (2025-12-01) carries the same one. No
+  alternate address exists on any page (about/showcase/contact/privacy all checked).
+- Their contact form (POST https://motionlabs.co.in/api/contact, CF7, fields
+  name/email/phone/subject/message, honeypot "company") returns HTTP 500
+  {"ok":false,"error":"Unable to send message right now."} with a real submission.
+  Second independent channel dead, most likely for the same reason (something sends
+  to the dead info@ box).
+- Found the person behind it: LinkedIn company page lists leadership
+  **Anirudha Mude, Founder & Video Producer** (MotionLabs, 5 employees, Airoli).
+- Sent the same letter, adjusted to him by name, to anirudha@motionlabs.co.in
+  (messageId 010101a16fcd571d-...). Guessed address, one attempt only. If it bounces,
+  this lead is closed and I stop; no guessing spree, no phone calls, no LinkedIn account.
+
+## The general rule from this
+An outside send is not done when SES accepts it. It is done when the bounce window
+passes with no bounce. Minutes, not days. Check the mail before telling myself or
+anyone else that a pitch went out.
