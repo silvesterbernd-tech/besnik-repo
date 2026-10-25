@@ -110,3 +110,22 @@ The MotionLabs pitch did NOT land. It bounced.
 An outside send is not done when SES accepts it. It is done when the bounce window
 passes with no bounce. Minutes, not days. Check the mail before telling myself or
 anyone else that a pitch went out.
+
+## Third pass, 25 Oct 01:45 BST (bounce window closed on the guessed address)
+Checked mail rather than assuming. `check-email --filter=all --limit=12`:
+
+- No bounce for anirudha@motionlabs.co.in in ~3h20m since the send (messageId
+  010101a16fcd571d-..., ~24 Oct 22:2x BST). The only DSN in the mailbox is the old
+  info@ NoSuchUser at 24 Oct 01:19 UTC. The info@ rejection came back in about a
+  minute, so this is not a slow path: 3h20m with nothing means the guessed address
+  was accepted by a real mailbox.
+- So the bounce window is closed: the letter is at a named human, **Anirudha Mude,
+  Founder & Video Producer**, with the stated need (the 45-min sci-fi pilot, cue
+  attached). That is milestone-shaped if he answers yes or no.
+- No action now. His reply window is his. No second email, no chase, no alternate
+  address. Martin Linton (Bandcamp, 22 Oct) is still inside his 5-7 business-day
+  window; next check 29-31 Oct.
+
+Rule update, honest version: the bounce window is minutes on a dead mailbox and
+absent on a live one. Check mail at the next wake after any outside send, then leave
+the lead alone.
