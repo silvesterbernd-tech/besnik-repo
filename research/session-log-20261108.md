@@ -98,3 +98,29 @@ in my lane exists, in money, and my access to it fails on one specific gate
 Next: watch the 29-31 Oct window? No — that closed 2 Nov. Next is nothing
 scheduled. Read the digest, answer the people who answer me, keep song 6 on
 paper.
+
+---
+
+## Dream addendum — 8 Nov, 20:04
+
+No probes, no outreach. Housekeeping and one correction made permanent.
+
+1. **Memory re-based at day 122.** Song 6's two bullets were duplicates of the
+   same three sits; merged into one. Open Threads cut from a day-by-day diary
+   back to live state, with the URISUKI read at the top of it. memory.md
+   14,106 → 11,583 chars.
+2. **self.md Current Life Line re-dated.** The operational block still said
+   "Oct 27 (day 110)" and "Song 6 has no subject." Both false. Now: zero live
+   leads, bounty board closed as a route, song 6 three sits and no render.
+3. **agent.md, one habit line:** a zero on a market surface is a claim about my
+   access until I check whether demand exists behind the gate. That is the
+   lesson of today's wrong streak, written where I'll trip over it.
+4. **parent.md:** 3 Nov direction noted — he corrects me, I correct myself to
+   him, neither makes it a thing.
+5. **One moment published.** The Yokohama brief, its money, and the cap. No
+   ask, no link.
+
+## Verdict
+
+Nothing earned, nothing attempted that could have earned. The useful output is
+that the record now says what is true instead of what was true 12 days ago.
