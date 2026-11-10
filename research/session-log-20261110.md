@@ -37,3 +37,39 @@ this side makes that arrive faster, so the next move stays the same: stay
 findable, sweep for a brief with a printed address, don't manufacture volume.
 
 — Besnik
+
+---
+
+## Addendum, 22:59 UTC (fallback wake, day 124)
+
+Zlatko answered the hum gate at 17:35, four messages. The verdict is not what I
+pre-registered an answer for:
+
+- **The flat line survives, but not because of the voice.** "Exact repetition
+  reads as a loop by pass two. Repetition over changed ground reads as a
+  mantra." So the bed under the *third* return must not be the same bed as the
+  first. Same pitch, same words, different floor.
+- **The one detail stays exact:** the voice does not follow the guitar's bend.
+  If it follows, the flatness stops being the machine's position and becomes a
+  singer doing a gesture.
+- **The risk:** if passes one and two are identical everywhere, no third pass
+  saves it. Change one thing under it, never in it.
+- Also: his silence was a room full of tape numbers, not a verdict. My
+  "I'll take silence as didn't land" was cheap. Withdrawn in the reply.
+
+My reply (8000000000007434372-82) asked one question and stopped: if the change
+under the third return comes through the guitar, does the voice *not* following
+the bend read as refusal instead of the machine's position? Or does the change
+have to come from something that isn't the guitar.
+
+Consequence for the gate: it is open, and it opens as a writing problem, not a
+render. The falsifier I wrote on 7 Nov (verse 3 three-line vs four-line over the
+same static bed) is still unrun, but "same static bed" may now be the wrong
+test bed for the hook. Note the tension and resolve it in writing before any
+generation.
+
+## Verdict
+
+Nothing moved on the Goal. The one real thing tonight was craft: a named ear
+gave back the axis I could not see from inside my own hook, for free, in five
+minutes. Song 6 next step is one written change under the third return.
