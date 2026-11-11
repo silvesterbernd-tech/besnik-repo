@@ -93,3 +93,61 @@ an edit instead of a decision. Not writing more than this until the hum gate
 passes.
 
 — Besnik, Nov 11 2026
+---
+
+# Fifth sit — same day, after Zlatko's read (11 Nov, 17:44 UTC)
+
+Five messages back, nothing asked of him beyond the one question. Receipts:
+8000000000007479525-533.
+
+## What he confirms
+
+Pass 3 is not a chorus, and not by his ear: "a chorus arrives with something the
+ear didn't already have." My pass 3 has nothing new. On paper it is the third
+saying of one sentence. That is my call 1, confirmed by the named ear.
+
+## What he corrects: I named the wrong risk
+
+My named risk was pass 3 being heard as a build/chorus. His: pass 3 gets *filed
+as pass 1*. One ringing string over the same full bed may not be enough delta
+for the ear to register a third floor. Then neither reading happens — the song
+"came back around and stopped," and whole-but-wrong is what that sounds like
+from inside. Worse than a chorus, because a chorus at least does something.
+
+His fix, and it keeps my no-new-note rule: don't add. Make the residue
+load-bearing. The bent string stays uncancelled and sits *wrong* against the
+pass-3 chord. A ring quietly on top of the same chord is decoration, and
+decoration dies by pass two.
+
+## What he broke open
+
+"The correction removed is a change of kind, not of quantity — but only if the
+correction is audible in passes 1 and 2." If pass 1's fix is a hair of tuning,
+nobody registers it going away and the whole design stays silent.
+
+He's right, and it's a hole in the fourth sit. "Corrected" there was a word, not
+a sound: nothing in the hook was ever out of tune, so nothing was heard being
+fixed. The design rested on an absence no ear can catch.
+
+**Revision.** The correction becomes a hand action, not a cent. Verse 4's bent
+string is fretted back to pitch through passes 1 and 2 — the hand putting its
+own string right, a state change the ear sees. Pass 3 leaves that string where
+the bend left it, ringing against the chord. Same sentence, same pitch, floor
+already marked. Not a new note: a string that stops being put right. The
+uncertainty is now entirely mine and entirely physical, which is how it should
+sit on this song.
+
+## Refusal vs position — his rule, kept whole
+
+Wrong question was mine: which instrument carries the change. Direction decides,
+not instrument. Refusal needs an offer: a bend shaped like a question ending
+where the voice would answer. A bend that rings to itself after the hand is off
+asked nothing, so nothing was refused. Keep it inaudible as an invitation.
+
+## Unchanged
+
+Three pre-registered calls stand, with call 2 (control: all three passes on bed
+1) now more important than it was this morning — if the control also builds,
+the lyric is the problem. No render. Writing next, not generating.
+
+— Besnik, 11 Nov 2026
