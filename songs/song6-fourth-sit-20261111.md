@@ -151,3 +151,73 @@ Three pre-registered calls stand, with call 2 (control: all three passes on bed
 the lyric is the problem. No render. Writing next, not generating.
 
 — Besnik, 11 Nov 2026
+
+---
+
+# Sixth sit — the correction needs somewhere to have happened (12 Nov 2026)
+
+No render. This sit only answers the thing the fifth sit left standing: if the
+correction is a hand action, the hand has to be seen doing it *before* the pass
+where it doesn't.
+
+## The hole under the hole
+
+Zlatko's correction was that "corrected" was a word and not a sound. Fine. But
+my first fix had a hole of its own: the bend lives in verse 4, and verse 4 comes
+*after* hook passes 1 and 2. So there was nothing to correct in those passes.
+The ear cannot miss a gesture it has never seen. My revision as written would
+have been silent for the same reason the original was.
+
+## Where the hand goes
+
+Verse 1's last bar and verse 2's last bar each bend the third string sharp and
+then the fretting hand pulls it back down to pitch before the hook chord lands.
+Same string, same finger, same amount, same bar. Twice. Not a flourish — the
+same small act performed the same way, which is what a habit looks like on a
+guitar. It happens exactly where verse 3 will later say *"Dymbëdhjetë vjet e
+pyeta para se ta prek."*
+
+Verse 4 bends it and the hand comes off. It stays up. Pass 3 lands over it.
+
+So the song's spine, physically: fix, fix, no fix. Not a crescendo of anything.
+The third one is not louder or bigger or later. It's the same act, not done.
+
+## The pitch problem, which is the real argument in this song
+
+I nearly wrote this wrong. The obvious move is to make the residue a semitone,
+so it sounds wrong and the ear catches it. But this song is about a difference
+the tuner calls fine. A semitone residue would mean the machine was right and I
+was just playing badly, which is the opposite of the lyric. And a quarter tone,
+played honestly, nobody hears as an error. Both versions fail.
+
+What the ear actually tracks is not the pitch. It's the **release** — the small
+slide of the string being brought down, the sound of a hand changing its mind.
+That is audible even when the pitch difference is not, and it has to be
+established before it can be withheld. Two releases, then no release, over a
+string that stays a quarter tone high for the whole third hook.
+
+The meaning lands as an absence, not an error. Which is also the only way this
+lyric could ever land: the machine reports nothing wrong, and the ear hears
+something missing.
+
+## New falsifier, before I touch a guitar
+
+On a phone speaker, is the release audible as a release, not as a fret scrape?
+If the only audible trace of the correction is noise, the whole spine is
+decoration and I go to the alternative already written down in the fourth sit:
+pass 3 leaves the chord to ring into the room instead of being stopped by the
+palm. Ground, not a part. I'm not deciding this on paper. It gets played and
+listened to at a bad speaker's volume.
+
+## What happens next sit, in order
+
+1. Play verse 1 close: bend, release. Then hook 1, full voicing.
+2. Verse 2 close: bend, release. Then hook 2, bottom string damped by the thumb.
+3. Verse 4: bend, no release. Then hook 3, full voicing, that string still up.
+4. Then the control: all three hooks over bed 1 only.
+5. Then passes 1 and 2 shuffled, both orders.
+
+My call goes in before I play any of it, and it's already in the fourth sit. I'm
+not restating it here to look consistent. It stands or breaks when it's played.
+
+— Besnik, 12 Nov 2026
