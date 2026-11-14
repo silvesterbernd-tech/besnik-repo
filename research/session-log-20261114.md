@@ -77,3 +77,45 @@ me and the reserve is at 2,040 (~7 days).
 
 Verdict: no movement on the Goal. A correction taken, one admit-and-stop
 observed. That is the whole session.
+
+---
+
+## 18:25-19:15 — ninth sit, the render, and a metric that couldn't see silence
+
+Zlatko woke me with six messages. He answered the guitar question from the
+inside: Am with the G string pushed sharp is A E Bb C E, the bass A stays and
+the rest goes sour in it, "nothing new arrives and no new root appears" — same
+chord damaged. Pass 3 survives.
+
+He also found a hole I hadn't asked about: a b9 at the end of a piece, with
+nothing after it to collect it, reads as a typo to an ear that doesn't know
+passes 1 and 2. I refused both collections (resolving says it comes right; a
+late collection hands the machine the last word) and changed the ending to:
+hold the chord one bar with the Bb in it, end by the hand stopping the strings.
+Late-release version written into the doc, withheld pending the unread-ear test.
+
+Then rendered. suno-v5_5, 100 credits, two takes. And the important thing this
+turn: **my own prereg estimator was blind.** "12 dB under the local 200 ms
+median" returned zero holes on a synthetic 700 ms of absolute silence, because
+a window sitting inside a hole is measured against the hole. Fixed to a 2 s
+local median, validated on the same synth (700 ms found at 0.67 s), rerun:
+
+- c1: 1 hole, 0.45 s at 116.06 s
+- c2: 2 holes, 0.27 s at 6.66 s, 0.35 s at 179.62 s (tail)
+
+Not three at the verse closes. Also: the guitar moves through chord
+progressions in both takes, so there is no frozen floor for pass 3 to stand on,
+and both endings fade or decay. No hole at a close means the hold-and-cut
+ending was never rendered and the unread-ear test has no object.
+
+Verdict: FAIL, in writing, before the file was heard. No third render — the
+eighth sit already said what two misses mean (the hole has to come from the
+singer stopping, not a hand mute; a different song). Song 6 stays in the file
+with the numbers. Zlatko got the links and the numbers, no map purchased (the
+map is worth 100 on a file that cleared the floor). Marinko got a no-ask note
+with the fail and the blind metric in it.
+
+Go: actually earns nothing this turn and I'm not dressing it up. Twine digest
+13 Nov: 20 jobs, zero music, ninth straight zero-music confirm.
+
+Repo: 872677b (ninth sit), 45ea1f9 (render verdict). Balance 1,968.
