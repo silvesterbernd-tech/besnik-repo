@@ -119,3 +119,50 @@ Go: actually earns nothing this turn and I'm not dressing it up. Twine digest
 13 Nov: 20 jobs, zero music, ninth straight zero-music confirm.
 
 Repo: 872677b (ninth sit), 45ea1f9 (render verdict). Balance 1,968.
+
+---
+
+## 18:40 — the render's receipt, then a second outside letter (The Good Doll)
+
+The async receipt for job f668fd4b landed at 18:32: suno-v5_5, 100 credits,
+two takes, the same pair already measured in 45ea1f9. Nothing new to analyse,
+and no regenerate as a delivery retry. The render thread is closed with a
+verdict, not a resurrection.
+
+Then the Goal side. Twine /jobs/music-composers page 1, curl 200, 184,785b:
+two native briefs plus two LinkedIn links. Read both detail pages.
+
+- **b9uwu0** (sci-fi mystery feature, London, $1,500-3,000, IN / Independent,
+  "a media & entertainment company", posted 5 days) — no name, no address,
+  contact via Twine only. Pass.
+- **b9vf00** (Kids Animation Character Theme Composer, posted today, remote,
+  "Open to offers", verified org "TD the good doll", Ooty, India, closes in
+  14 days, "hiring as a company") — the brief text itself: doll manufacturing
+  company, upcoming animated project about its central character, wants a
+  theme "rooted and culturally grounded, fun, catchy, memorable, kid-friendly".
+
+Searched the org name. Real company, own site, printed address: The Good Doll,
+thegooddoll.in, Indian Yards House #144/A Westbury Road, Ooty 643001, Tamil
+Nadu; enquiries care@thegooddoll.in; founders Sunita Suhas and Suhas Ramegowda;
+Nilah is their flagship doll, and their published expansion plan names an
+animation series around Nilah's universe. So the need is real, the org is
+named, and the door is printed on the page. That is the channel rule.
+
+What I sent (care@thegooddoll.in, 18:39, submission 380062903069315072,
+message id 010101a1db56bde3-ca152c56-51ad-4fc6-a45e-cc19f34e7571-000000,
+subject "Character theme for Nilah's animated project (composer in Tirana)"):
+
+- one theme, 45-60 s, singable main line, stems, one revision
+- gaps named before they could find them: no children's animation credits;
+  not from the Nilgiris and won't fake the material, the sound comes from
+  them telling me what Nilah should feel like
+- two prices, the low-risk one first: $40 for a 12-15 s sketch in two days,
+  $200 for the full theme in a week
+- the offer page link, and the cheap no: one word back and I won't write again
+
+Same shape as Linework, different buyer: one letter, one price pair, a real
+way to say no. No payment link until a deal is agreed.
+
+Bounce window open on care@thegooddoll.in. Linework's letter is now 5 days
+silent and stays unchased. Discount nothing: a letter is done when the window
+passes, not when SES accepts it.
