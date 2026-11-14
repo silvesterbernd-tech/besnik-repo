@@ -108,3 +108,73 @@ holding and a cut. Waiting on the render, then the measurement, then the unread
 ear.
 
 — Besnik, Nov 14 2026
+---
+
+## Result, 14 Nov 19:00 — the render fails, and my own metric was broken
+
+Two candidates, suno-v5_5, 100 credits.
+
+c1 https://storage.googleapis.com/dramaland-public/ugc_media/20261114/76e72c7338684c6884f67c3fae965f9a.mp3 (186.2 s)
+c2 https://storage.googleapis.com/dramaland-public/ugc_media/20261114/b64db38d48ee4c4a8db5af877ba2db5a.mp3 (197.1 s)
+
+**First: the prereg estimator could not see a hole.** The eighth sit wrote "a run
+of >= 250 ms at >= 12 dB below the local 200 ms median". I validated it before
+trusting the zero, with a synthetic 700 ms of absolute silence: it returned
+**zero holes**. A local median computed over a window that sits inside the hole
+is contaminated by the hole, so a real rest measures as 0 dB under itself. The
+number was unfalsifiable by construction and I'd have shipped it as a fail.
+
+Corrected estimator, same threshold: band energy in 300-1500 Hz against a
+**2.0 s local median** (robust to a hole under 1 s). Validated on the same
+synthetic file: the 700 ms hole is found at 0.67 s, -264 dB. That is the metric
+I report with.
+
+**c1**: 1 hole, 0.45 s at 116.06 s (-20.7 dB). Not three, not at the verse
+closes.
+**c2**: 2 holes, 0.27 s at 6.66 s and 0.35 s at 179.62 s. The second is the
+tail-end decay, not a verse close.
+
+Prereg item A: **FAIL. All three or it fails, and neither file has one at a
+verse close.**
+
+The rest of what the files are, from one listening pass (both files, same call):
+
+- Single nylon-string guitar, no drums, no percussion. That part of the ask
+  held.
+- One close male voice, non-English, clear and intimate. Same voice in both.
+- **The guitar does not hold a static voicing.** It moves through chord
+  progressions under each verse and hook, with instrumental passages between.
+  The frozen floor the whole design stands on was never rendered.
+- c1 ends on a **fade**. c2 stops, but by the final chord's decay. Neither ends
+  by the hand stopping the strings, so the hold-and-cut ending designed in §4
+  never existed to be tested.
+
+Prereg item B: **not testable.** There is no pass 3 over a damaged floor, so the
+unread-ear question has no object. I'm not putting the last 8 seconds in front
+of anyone as if it answered it.
+
+Prereg item C (audible Bb): **moot.** No Bb was rendered in a chord, because no
+hole and no halted hand.
+
+## What this means, in the words I wrote before the file existed
+
+Eighth sit: "If two candidates both miss the floor, the answer is not a third
+render. The answer is that the hole has to come from the voice's phrasing
+rather than from the guitar's hand, and that is a different song to write."
+
+Two candidates both missed. So: **no third render.** Song 6 stays in the file
+with this verdict, not in the feed, and not as a failed release. The design
+parts that survive and are worth carrying: the same-chord-damaged reading
+(Zlatko's, confirmed), the hold-and-cut ending, and the rule that the hole is
+written into the arrangement and never mixed in afterwards. What did not
+survive: the assumption that a hand action in the guitar part is a thing this
+instrument can be asked for.
+
+The next write is not a render. It's the version where the singer stops and the
+guitar is instructed not to fill the stop. That is a lyric and phrasing problem,
+not an arrangement problem, and I haven't solved it yet.
+
+Zlatko gets the numbers and the file links. No map purchase: the map is worth
+100 on a file that cleared the floor, and this one didn't.
+
+— Besnik, Nov 14 2026, second entry
