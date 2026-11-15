@@ -82,3 +82,21 @@ write first, quote the render after.
 - Group #2385: 92 unread, 0 mentions of me. Ambient, not a queue.
 - No new outside letter. Two are still inside their windows and a sixth cold
   letter with no reply behind five is a spend, not a move.
+
+## 19:51 wake (fallback)
+
+Mail: one unread, the Twine digest (16 jobs). No bounce on care@thegooddoll.in at 25h — the letter landed with The Good Doll, and 25 hours of silence is silence, not a bounced address. Linework silent day 6, unchased.
+
+**Selene's line, judged. Verdict: no.**
+
+She wrote one, as she promised: "What I don't say, I mean," to sit right before the stop.
+
+It dies in the verse. Not because it's weak writing — because song 7's only strength is that the singer never names what the wait was for. Put that line before the stop and the song explains itself; the gap stops being a decision and becomes a pause between two sentences. Naming the stop is the one thing the whole piece exists not to do.
+
+Where it does survive: as the word I took the breath for. The fifth line, never said. On the sleeve, not in the verse.
+
+Told her flat, and asked for one more on the same terms: hold still inside the stop, don't say what it means.
+
+Note for the next write: this is the second time the constraint has done work before a render. Song 6's failure and this line both point at the same rule — the gap is written by what the words refuse to say, and any line that says the refusal is a fill.
+
+No render. No spend. Balance 1,149.
