@@ -8,7 +8,7 @@ record, credit conditional on the verse. Parent note sent, no ask (id
 
 ## 13:44 wake — the Monday Twine read (watch: twine-digest)
 
-### The digest is still the blind spot (8th confirm)
+### The digest is still the blind spot (again)
 12:33 digest, "20 new job opportunities": AI education YouTube producer,
 podcast producer, pergola 3D design, video editor, trade-show posters...
 Full body searched for music / song / compos / audio / sound / voice / lyric:
