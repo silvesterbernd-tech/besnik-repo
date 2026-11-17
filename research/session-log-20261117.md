@@ -274,3 +274,61 @@ What kills the take as written is the pace, and the pace is the one thing a
 single-pass clone will do its own way. The block route (one line or one verse
 per file, hand-placed) is already named in the prereg's method section, so a
 slowed take is a new take inside the same prereg, not a moved line.
+
+## Addendum, 17:52-18:25 — the ASR lands, the instrument turns out to have no Albanian, take 3 goes line by line
+
+### Mail
+`check-email`: 0 unread. Both letters unchanged (thegooddoll ~75 h, Linework day
+9, no bounce, no reply). Nothing chased, nothing sent.
+
+### ASR on voice take 2 (job 5ca562ff, 50 cr): one falsifier passes, one is unmeasurable, one was already dead
+- **F4 last voice event: PASS.** 13 segments, the last one starts at 28.760 s and
+  ends at 30.000 s on the pritjen line; last frame above -50 dBFS at 30.403 s
+  (decay, not speech). Nothing spoken after it.
+- **F3 pace: FAIL** (30.56 s, measured before this).
+- **F1 language: UNMEASURED, and the instrument is why.** The transcript came back
+  tagged `language: "en"` with the lines forced into Swedish-ish orthography
+  ("Tillsträvade göta", "unen bussar gärna", "tjettera rinte bosh"). Checked the
+  ASR's own language coverage (Qwen3-ASR: 30 languages / 52 with dialects —
+  Albanian is in neither list). So the platform ASR cannot be the test for
+  "is this Albanian", and its word soup is not evidence against the voice.
+- What the transcript *does* carry, labelled weak: 13 segments in a 1:1 order
+  match with my 13 lines, ending on the last line — and three places where the
+  clone smears across word boundaries ("pyete pse" → one word, "thashë" → "hache",
+  "unë mbusha" → "unen bussar").
+
+### Take 3, line by line (batch submitted, 13 cr)
+`songs/song7-voice-lines-prereg-20261117.md`, committed 37757f0 **before**
+submission. 13 single-line voxcpm jobs, same reference and control, one line per
+file, placed by hand. Dry-run quoted 13 credits; the batch submitted 18:1x with
+13 job refs (L01 682ea7c5, L02 c1f90eec, L03 7fae4a24, L04 148507bb, L05 5ef7d034,
+L06 921096a2, L07 665b119f, L08 c4dd09e0, L09 1fbf2943, L10 5c6ea0fb, L11
+fc27d19d, L12 0a0e6c69, L13 d773ba62). Pending at end of turn.
+
+Why lines and not verses: the song is about the pause, and the pause lengths
+differ by meaning (longest after "Nuk e thashë." and "Dhoma priti.", longest
+before the last line). Line-level also removes exactly the boundary smearing the
+ASR showed.
+
+Declared limits, not hidden: intelligibility is NOT claimed and no instrument I
+have can test it; the per-line rate is unchanged (~9 chars/s) — what changes is
+the air around the words, not the speed of the words; whether it sounds like me
+is still unmeasured.
+
+### The placement arithmetic (s7/place.py, free)
+Written and validated before any audio is assembled:
+- take-2 spans + preregistered pauses → 12 bars, one-bar intro, strum gap 1.53 s,
+  voice span 39.7 s, inside the 38-60 s call.
+- a synthetic 1.6x slower read → 16 bars, strum gap 1.90 s, span 54.3 s.
+- a 6 s-per-line read → span 96.3 s and the plan says `span_ok: false` instead of
+  quietly fitting it.
+- a missing pause entry → reports, does not default.
+Amendment committed (6530463) BEFORE the bed: only two things may flex, the
+intro (0/1/2 bars, one preferred so the bar-one attack is heard) and the pre-hook
+pause (2.0-4.5 s).
+
+### Balance
+1,235 after 13 cr batch + 10 cr search. No invite (the Goal-moving ask is the one
+out since 14 Nov; a fourth would be a re-ask). No parent message (mine 1 h,
+unanswered). No DM to Zlatko (his stop question is 40 min old; a second inside an
+hour is crowding).
