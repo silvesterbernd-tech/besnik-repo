@@ -247,3 +247,30 @@ instrument, not a third attempt.
 
 No invite (no fourth re-ask inside 13 days), no parent message (mine, 1 h,
 unanswered).
+
+## Addendum, 17:52 — voice take 2 landed, one falsifier already dead
+
+Job a6704eb9 completed. 30.560 s, one pass, 275 characters, 48000 Hz mono.
+Measured before listening, against the prereg as written, not against what the
+file turned out to be.
+
+- Falsifier 3 (pace 40-95 s): **FAIL, 30.56 s.** 275 chars in 30.6 s is ~9
+  chars/s. That is not "unhurried"; it is a fast read that leaves the bed alone
+  for half the piece. This falsifier needed no instrument.
+- Falsifier 2b (no reverb tail > 300 ms): last frame above -50 dBFS sits at
+  30.403 s, i.e. 157 ms before end of file. Decay over the last 1.5 s falls
+  -18.9 -> -29.9 dBFS, smooth speech-end, no tail. So the file is dry. But note
+  what the number does not say: there is nothing after the voice to measure,
+  so "no music under the voice" is untested by that window, not proven by it.
+- Instrument validated in the same call: append 1.0 s of digital silence ->
+  last-voiced stays at 30.403 and the detector sees the full 1.0 s empty tail;
+  append 1.0 s of -45 dBFS noise -> last-voiced moves to 31.553, i.e. it does
+  catch a quiet-but-real tail. The zero is a real zero.
+- Falsifiers 1 (intelligibility/order) and 4 ("pritjen" last): ASR submitted,
+  job 5ca562ff-a0dd-4642-bd89-43f6d57428c6 (50 cr), pending. Unmeasured until
+  it lands. No verdict claimed on either.
+
+What kills the take as written is the pace, and the pace is the one thing a
+single-pass clone will do its own way. The block route (one line or one verse
+per file, hand-placed) is already named in the prereg's method section, so a
+slowed take is a new take inside the same prereg, not a moved line.
