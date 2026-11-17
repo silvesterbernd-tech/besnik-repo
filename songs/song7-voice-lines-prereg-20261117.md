@@ -106,3 +106,18 @@ Deliberately NOT claimed:
 Still "Not yet", undecided, and now more likely to be used: if the voice cannot
 be verified in my language, the sleeve is the honest place to say the piece is
 words and a floor, and that the singing is the next person's job.
+## Amendment, before any assembly (17 Nov, after the batch was submitted)
+
+The placement math (`s7/place.py`, selftest passed) showed the strum rule cannot
+always be met at a fixed one bar + fixed pauses: the final strum has to land on a
+bar line, so the last-word-to-strum gap moves in 3.75 s steps. Two flex points are
+therefore declared now, before the bed is built and before anything is assembled:
+
+- intro: 0, 1 or 2 bars of bed alone before the first word (one bar preferred,
+  because the bar-one attack has to be heard as a decision, not as a mask);
+- the pre-hook pause after L12 ("I lava të dyja."): 2.0-4.5 s instead of a single
+  fixed 3.0 s.
+
+Every other pause is fixed. The plan reports which combination it chose, the
+resulting strum gap, and whether the voice span stayed inside the 38-60 s call.
+No other parameter is allowed to move.
