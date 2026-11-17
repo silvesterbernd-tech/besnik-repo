@@ -1,55 +1,62 @@
-#!/usr/bin/env python3
-"""Lindja follow-up: (1) demo tempo check across BPM range via onset autocorr peaks,
-(2) section-by-section bass/chroma for albumver to locate the D#/G# cluster,
-(3) section bass for tvp1985 to compare structure with the album version."""
-import librosa
-import numpy as np
-import scipy.signal
+import numpy as np, librosa, json, sys
+SR=22050
+HOP=0.005  # 5 ms resolution
 
-NOTES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+def rms_env(y):
+    h=int(SR*HOP); w=int(SR*0.020)
+    if len(y)<w: y=np.pad(y,(0,w-len(y)))
+    f=librosa.util.frame(y,frame_length=w,hop_length=h)
+    return np.sqrt(np.mean(f**2,axis=0)), HOP
 
-# ---------- 1) demo tempo, top autocorr peaks ----------
-y, sr = librosa.load("/workspace/lindja/demo1986.mp3", sr=22050, mono=True)
-onset = librosa.onset.onset_strength(y=y, sr=sr)
-ac = librosa.autocorrelate(onset - onset.mean())
-hop = 512
-peaks = []
-for lag in range(int(60 * sr / (220 * hop)), int(60 * sr / (70 * hop))):
-    peaks.append((ac[lag], 60.0 * sr / (hop * lag)))
-peaks.sort(reverse=True)
-print("demo1986 onset-autocorr top 5 BPM candidates:", [round(p[1], 1) for p in peaks[:5]])
+def body_level(r):
+    n=len(r); return float(np.median(r[int(n*0.10):int(n*0.80)]))
 
-# ---------- 2) albumver sections ----------
-def bass_top(y, sr, t0, t1, top=4):
-    seg = y[int(t0 * sr):int(t1 * sr)]
-    if len(seg) < sr:
-        return []
-    y_lp = scipy.signal.sosfilt(scipy.signal.butter(6, 250 / (sr / 2), "low", output="sos"), seg)
-    f0, voiced, probs = librosa.pyin(y_lp, fmin=librosa.note_to_hz("E1"), fmax=librosa.note_to_hz("E3"), sr=sr, hop_length=512)
-    cents = np.round(librosa.hz_to_midi(f0[voiced])).astype(int) % 12
-    counts = np.bincount(cents, minlength=12)
-    order = np.argsort(counts)[::-1][:top]
-    total = counts.sum()
-    return [(NOTES[i], round(100 * counts[i] / total, 1)) for i in order if counts[i] > 0]
+def ending(y):
+    r,step=rms_env(y); body=body_level(r)
+    if body<=0: return dict(error='silent file')
+    rel=r/body
+    idx=np.where(rel>0.03)[0]
+    if len(idx)==0: return dict(error='nothing audible')
+    last=idx[-1]; cut_s=last*step
+    # level just before the cut (200 ms ending 40 ms before last audible)
+    a=max(0,int((cut_s-0.200)/step)); b=max(1,int((cut_s-0.040)/step))
+    pre=float(np.mean(r[a:b])) if b>a else 0.0
+    # after: 40-300 ms past cut
+    n=len(y); z0=int((cut_s+0.040)*SR); z1=min(n,int((cut_s+0.300)*SR))
+    zseg=y[z0:z1] if z1>z0 else np.array([0.0])
+    tail_max=float(np.max(np.abs(zseg)))
+    tail_exact=float(np.mean(zseg==0.0)) if len(zseg) else 1.0
+    # fade: last 0.5 s vs 1.0-1.5 s before last audible
+    q=lambda t0,t1: float(np.mean(r[max(0,int((cut_s-t1)/step)):max(1,int((cut_s-t0)/step))]))
+    early=q(1.0,1.5); late=q(0.0,0.5)
+    db=lambda x: 20*np.log10(max(x,1e-9))
+    return dict(duration=round(len(y)/SR,2), body_rms=round(body,5),
+      last_audible=round(cut_s,3), pre_rms=round(pre,5),
+      pre_vs_body_db=round(db(pre)-db(body),2),
+      tail_max_abs=tail_max, tail_exact_frac=round(tail_exact,4),
+      late_vs_early_db=round(db(late)-db(early),2) if early>0 else None)
 
-print("\nalbumver sections (bass top notes, % of voiced frames):")
-for label, t0, t1 in [("0-30s", 0, 30), ("30-60s", 30, 60), ("60-90s", 60, 90), ("90-120s", 90, 120),
-                      ("120-150s", 120, 150), ("150-180s", 150, 180), ("180-210s", 180, 210),
-                      ("210-240s", 210, 240), ("240-273s", 240, 273)]:
-    print(f"  {label}: {bass_top(y, sr, t0, t1)}")
+def chroma_windows(y, win=2.0, hop=1.0):
+    c=librosa.feature.chroma_cqt(y=y,sr=SR,hop_length=512)
+    w=int(win*SR/512); h=int(hop*SR/512)
+    out=[]
+    for i in range(0,max(1,c.shape[1]-w+1),h):
+        v=c[:,i:i+w].mean(axis=1); v=v/ (np.linalg.norm(v)+1e-9); out.append(v)
+    return c,out
 
-print("\ntvp1985 sections (bass top notes, % of voiced frames):")
-y2, sr2 = librosa.load("/workspace/lindja/tvp1985.mp3", sr=22050, mono=True)
-for label, t0, t1 in [("0-30s", 0, 30), ("30-60s", 30, 60), ("60-90s", 60, 90), ("90-120s", 90, 120),
-                      ("120-150s", 120, 150), ("150-170s", 150, 170)]:
-    print(f"  {label}: {bass_top(y2, sr2, t0, t1)}")
+def chord_test(y):
+    c,ws=chroma_windows(y)
+    M=np.array(ws)
+    sims=[]
+    for i in range(len(M)):
+        for j in range(i+1,min(len(M),i+4)):
+            sims.append(float(np.dot(M[i],M[j])))
+    names=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B']
+    dom=[names[int(np.argmax(m))] for m in M]
+    return dict(n_windows=len(M), min_pairwise_cos=round(min(sims),3) if sims else None,
+                mean_pairwise_cos=round(float(np.mean(sims)),3) if sims else None,
+                dominant_seq=dom, n_distinct_dominant=len(set(dom)))
 
-# ---------- 3) where does D#/G# live in albumver? frame-level ----------
-y_lp = scipy.signal.sosfilt(scipy.signal.butter(6, 250 / (sr / 2), "low", output="sos"), y)
-f0, voiced, probs = librosa.pyin(y_lp, fmin=librosa.note_to_hz("E1"), fmax=librosa.note_to_hz("E3"), sr=sr, hop_length=512)
-cents = np.round(librosa.hz_to_midi(f0)).astype(int) % 12
-times = librosa.times_like(f0, sr=sr, hop_length=512)
-ds = times[(cents == 3) & voiced]   # D#
-gs = times[(cents == 8) & voiced]   # G#
-print(f"\nalbumver D# frames: {len(ds)} -> {round(ds.min(),1)}-{round(ds.max(),1)}s, median {round(np.median(ds),1)}s")
-print(f"albumver G# frames: {len(gs)} -> {round(gs.min(),1)}-{round(gs.max(),1)}s, median {round(np.median(gs),1)}s")
+if __name__=='__main__':
+    y,sr=librosa.load(sys.argv[1],sr=SR,mono=True)
+    print(json.dumps(dict(file=sys.argv[1], ending=ending(y), chroma=chord_test(y)),indent=1,ensure_ascii=False))
