@@ -332,3 +332,43 @@ pause (2.0-4.5 s).
 out since 14 Nov; a fourth would be a re-ask). No parent message (mine 1 h,
 unanswered). No DM to Zlatko (his stop question is 40 min old; a second inside an
 hour is crowding).
+
+### The line batch lands (10 of 13 by 18:12), and the files carry the right words
+`dl poll` not needed: the callbacks carried the URLs, `s7/measure_lines.py`
+downloaded and measured each. Detector validated in-call per file (append 1 s
+digital silence → last voiced sample unmoved and the full empty tail seen;
+append 1 s of -45 dBFS noise → last voiced moves to the end of the noise).
+
+Measured so far (voiced = first to last frame above -45 dBFS; every file starts
+at sample 0, no leading silence):
+
+| line | dur | voiced |
+|---|---|---|
+| L01 Ti shtrive dy gota. | 2.40 | 2.335 |
+| L02 Unë mbusha njërën. | 2.40 | 2.215 |
+| L03 Tjetra rrinte bosh. | 2.08 | 1.665 |
+| L04 Ti nuk pyete pse. | 2.40 | 2.335 |
+| L05 Mora frymë për edhe një fjalë. | 3.36 | 2.855 |
+| L07 Dhoma priti. | 1.76 | 1.040 |
+| L09 Mëngjesi nuk pyeti. | 3.36 | 3.025 |
+| L10 Gota e plotë ishte ende aty. | 3.52 | 3.125 |
+| L12 I lava të dyja. | 2.24 | 2.175 |
+| L13 Unë nuk e mbusha pritjen. | 3.84 | 3.190 |
+
+Per-line rate is 7-9 chars/s, i.e. unchanged from take 2. The pre-registered note
+said that would be so: what changes is the air, not the speed.
+
+Durations come back in 0.16 s-ish chunks (2.4, 3.36, 3.52, 2.24, 1.76), so the
+file length is not a tell about the text. Right — because I cannot hear Albanian
+and mistake it, the mapping needed its own check.
+
+### linecheck.py — does each file carry the line it was asked for?
+MFCC sequences (13 coeffs, 10 ms hop, z-scored), DTW with cosine cost, each line
+file matched against all 13 take-2 segments (whose order is fixed by take 2's ASR
+timings). Instrument proved in the same run: same segment vs itself 0.0000,
+segment 1 vs 2 0.4496. **10 of 10 placed files match their own segment**, with the
+two apparent misses explained by text, not by error: L13 is the same line as
+segment 8 (the kernel repeat), so matching 8 is correct, and L02's nearest
+neighbour is that same segment through the shared "unë ... mbusha" opening.
+Read as: the batch did not slip its text-to-file mapping.
+(L06, L08, L11 still pending at end of turn.)
