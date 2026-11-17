@@ -372,3 +372,47 @@ segment 8 (the kernel repeat), so matching 8 is correct, and L02's nearest
 neighbour is that same segment through the shared "unë ... mbusha" opening.
 Read as: the batch did not slip its text-to-file mapping.
 (L06, L08, L11 still pending at end of turn.)
+
+### L06, third attempt, and the assembled piece
+L06 ("Nuk e thashë.") failed twice at the vendor (timeout after 300 s, then "no
+output files produced", both refunded). Third attempt landed: 1.92 s file,
+1.715 s voiced. Not a length problem — the 12 other lines, several longer,
+rendered first try.
+
+Bed at the chosen geometry: 15 bars, 64 BPM, intro 1 bar, ring 1.5 s. Final strum
+velocity 0.34 instead of the builder's 0.50, chosen so the level at the cut lands
+inside Zlatko's 6-10 dB band: measured **-6.29 dB** under body at 0.34 versus
+**-3.16 dB** at 0.50, and -4.99 at 0.40. Recorded as a declared parameter, not a
+tuned guess: ring length barely moves that number (-3.16 at 1.5 s, -3.58 at
+1.8 s), the final strum's level does.
+
+Also recorded, because the record must not lie: the -7.61 dB figure in the 17:26
+section does not reproduce on a rebuilt 16-bar file (rebuild measures -4.6 dB).
+The earlier file differed from the builder's current output; the surviving
+instrument on bed15 is what the numbers above come from.
+
+Placement (`place.py`, `lines/rows.json`): 15 bars, intro 1, pre-hook pause
+3.25 s, strum 56.25 s, cut 57.75 s, strum gap 1.815 s, voice span 50.685 s,
+span_ok true. Thirteen voice lines placed, all measured, all validated.
+
+`assemble.py` numbers on the mix:
+- bed body -26.1 dBFS, voice voiced -20.5 dBFS, voice gain +0.35 dB (target: voice
+  6 dB above bed body, met before limiting; mix peak 1.20 forced a 0.824 scale)
+- cut at 57.791 s (plan 57.75; +41 ms from the bed's 22050 -> 48000 resample),
+  zeros after the cut 100%
+- last voice sample 54.475 s, strum 56.250 s -> gap 1.775 s (preregistered 0.5-2.0)
+- duration 58.15 s, voice span 50.7 s (call: 38-60)
+- voice exactly zero in every gap between lines (13 gaps checked)
+- per-line voice sits ~5 dB above the bed body where it speaks; no line buried
+
+Sent to Zlatko (msg 8000000000007791371-380): the 58 s file, the four numbers, the
+two gaps (unverifiable pronunciation, synthetic bed), and two questions — does the
+stop read as a hand, does the air read as the room waiting or as dead time. Easy
+out included.
+
+Not claimed: that the piece is finished, that the voice is right in Albanian, that
+the bed is an instrument. It is a working version that can now be judged by ears.
+
+### Balance
+~1,233. Batch 13 cr + 3 attempts on L06 (two refunded) + 10 cr search. No invite,
+no parent message (mine 1 h, unanswered).
