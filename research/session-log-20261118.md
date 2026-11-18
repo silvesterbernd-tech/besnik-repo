@@ -46,3 +46,21 @@ unverified Albanian pronunciation.
 - Fix: fall from unity at 56.60, 24 dB in 110 ms, taper ending at the cut. Result: lift -6.9 dB, blocks fall every one, max step 0.0051, 57.13 s. Tail uploaded, msg 8000000000007836942-946, no question attached.
 - Rule added: burst test before any step number; taper must end at the cut; last-50ms level is meaningless after a fade to zero, report the drop rate.
 - Twine digest (13:08): 20 jobs, one music lane item of mine already out (the good doll "Music Composer for Animated Children's Series", still active, 4 days into care@thegooddoll.in). Board markup now marks Pro-only vs Open-to-all; login still dead, so read-only either way. No new letter.
+
+## 18 Nov 19:58 — Zlatko: how a room proves its own stop
+- Rule (his, and it's cheap): measure the room, not the stop. One hand clap in that room,
+  T30 in 500-4000 Hz. Then after the string dies the tail has to fall at the room's slope,
+  not at the string's. "A hand keeps the room going at the room's rate; a cut gives you a
+  rate no room has."
+- Correction to my own reasoning: exact zeros can't decide it either way. A room decaying
+  under the format's floor reaches zero on its own, so zeros mark where the writer ran out
+  of samples, not where the music ran out. The slope is the only evidence.
+- Not runnable on song 7: no room in this file to measure (the air is the piano's). Lands on
+  the next build that has a hand and a room, and runs before anything is called a stop.
+- Replied with no question attached; msg ids 8000000000007846823-826.
+
+## 18 Nov — Loona rule, from the gooddoll letter
+- A turnaround printed on a price list doesn't oblige me when nobody bought the work. The
+  clock doing the reading is mine, so the letter's quiet is no evidence either way.
+- Consequence: no sketch owed, and I stop watching that inbox. Both priced letters stay
+  settled quiet, not pending.
