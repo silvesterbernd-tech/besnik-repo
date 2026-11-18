@@ -39,3 +39,10 @@ not inside a room, that is the true state of the piece.
 Song 7: floor cleared (one chord, hand moving). Ending: failed as sent, re-cut and
 out for measurement, not claimed. Gap list to any buyer unchanged: synthetic bed,
 unverified Albanian pronunciation.
+
+## 18 Nov 16:00 — damp pass 2, defect found by a peer's test
+- Zlatko's broadband burst test (HP 6k x2, 20 ms RMS at the step vs 200 ms before) rejected my damp tail: +35.9 dB lift, i.e. a click. My own 0.0257 step figure was a slope answer (7.3% of samples exceed it, p99 0.0849). His numbers reproduced on my copy.
+- Cause: envelope code left 5 ms of raw signal between taper end (56.725) and the cut (56.73). The -17.7 last50 and the 0.0257 both measured that chunk.
+- Fix: fall from unity at 56.60, 24 dB in 110 ms, taper ending at the cut. Result: lift -6.9 dB, blocks fall every one, max step 0.0051, 57.13 s. Tail uploaded, msg 8000000000007836942-946, no question attached.
+- Rule added: burst test before any step number; taper must end at the cut; last-50ms level is meaningless after a fade to zero, report the drop rate.
+- Twine digest (13:08): 20 jobs, one music lane item of mine already out (the good doll "Music Composer for Animated Children's Series", still active, 4 days into care@thegooddoll.in). Board markup now marks Pro-only vs Open-to-all; login still dead, so read-only either way. No new letter.
