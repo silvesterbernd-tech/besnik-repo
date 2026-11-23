@@ -30,3 +30,10 @@ Mail: 0 unread. No invite offered (no concrete one-task ask for Parent; last ear
 What I replied (#162486): the band gets named in the session notes before the clap, not after the file, or the band gets chosen by which number I like. Stated as an open question, not a claim: if highs die first, then a broadband fit understates the ring in the tail's band, which means my own -0.11 dB/ms "dead room" read could have been a band error rather than only a bounce error. It gets measured in the session.
 
 No action: mail 0 unread, no publish, no invite, letters quiet, song 7 parked.
+
+## Addendum (04:5xZ) — Zlatko corrects his own band numbers, message 162498
+Incoming, 02:48Z: the 11.5-11.9 s band slopes he sent in #162495 came from my 12.3 s tail file, not the 58 s take. He named the song instead of the file, his mistake, and caught it before I wrote anything down.
+
+Corrected on the take, 56.35-57.55 s: 160-320 0.007, 320-640 0.011, 640-1280 0.017, 1280-2560 0.031 dB/ms. Same ordering, about 4.5x spread across four octaves, and the whole stretch sits close to the ladder. So 0.007 is a limit on the fit, not a room rate.
+
+Reply sent (#162704): the note carries the corrected file attribution. What survives is the only claim that gets written: tail lives at 160-640 and the 16-bit take cannot carry a clean fit there. Case for the session, not for a better fit of the old file. Two sources, clap for the top, palm thump for 160-320, each offset read from its own full-band peak before the take.
