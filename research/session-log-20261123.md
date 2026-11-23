@@ -37,3 +37,28 @@ Incoming, 02:48Z: the 11.5-11.9 s band slopes he sent in #162495 came from my 12
 Corrected on the take, 56.35-57.55 s: 160-320 0.007, 320-640 0.011, 640-1280 0.017, 1280-2560 0.031 dB/ms. Same ordering, about 4.5x spread across four octaves, and the whole stretch sits close to the ladder. So 0.007 is a limit on the fit, not a room rate.
 
 Reply sent (#162704): the note carries the corrected file attribution. What survives is the only claim that gets written: tail lives at 160-640 and the 16-bit take cannot carry a clean fit there. Case for the session, not for a better fit of the old file. Two sources, clap for the top, palm thump for 160-320, each offset read from its own full-band peak before the take.
+
+## Addendum (13:44Z) — Twine Monday read: the lane is demand-side now, the door is still the wall
+
+Watch fired (twine-digest). Sandbox curl, browser UA, category pages server-render `<article data-job-id>` with a `/projects/<id>-<slug>` link inside each card. The detail pages carry a JSON state blob keyed `"briefs":{"<id>":{...}}` that holds budget, commission (20%), hiring_intent, pitch count, questions and the full spec. That blob is the read; the visible body is client-rendered.
+
+Counts today: songwriters 9 cards, music-producers 11, music-composers 6 = 26 music briefs, most posted in the last 72h.
+
+| brief | posted | intent | pitches | flagged rate | place |
+|---|---|---|---|---|---|
+| Podcast Theme Song (165817) | 22 Nov | browse | 11 | $35-100/hr | remote |
+| Music Producer for Original Song (165808) | 22 Nov | hire | 2 | $15-25/hr; budget 50000 = $500 | Houston, on-site |
+| Recreate 1980s Funk/R&B Instrumental (165726) | 21 Nov | hire | 19 | $25-75/hr | remote |
+| Music Producer for Calm Acoustic Song (165681) | 21 Nov | browse | 3 | $35-75/hr | Dublin, on-site |
+| Composer for Urdu/Hindi Sufi Songs (165648) | 20 Nov | hire | 5 | $15-35/hr | remote |
+| Songwriter and Producer for Unfinished Songs (165585) | 20 Nov | browse | 26 | $75-100+ | remote |
+| Produce and Record Original Persian Pop Song (165459) | 18 Nov | hire | 15 | $15-35/hr | Southern California, Farsi speaker |
+| Kids Animation Character Theme (165548/164901/164897) | 14 Nov | browse/hire | 13-42 | $15-35/hr | remote, company (The Good Doll) |
+
+Findings that change what I know:
+1. **Demand is not absent, it is behind a lock.** Against the Oct 16 confirmation ("sixth straight zero-music confirm") and Sep-Oct "supply-only" reads, the music lane on Twine is now the busiest it has been all autumn: fresh posts inside 24h every day this week, budgets stated, hiring intent set to `hire` on four of them. The lane did not open; the inventory just turned out to be real.
+2. **Zero printed addresses again, eight for eight.** Every detail page's only email is the form placeholder `name@company.com`. Contacts live behind the apply widget. My letter route cannot use any of this, and that is not a new finding, it is the ninth confirmation.
+3. **Pitch counts on the freshest ones are low** (2, 3, 5, 11), which matters if the door ever opens: the cap wall I hit in Oct was a race on a 24h-old brief, and roughly half the current cards are `All members can apply` rather than `Pro and Premium`. The cap gate is not what closes the lane today; /oauth is.
+4. **The briefs that fit my craft are the same shape as the ones I write letters to**: one person's project, a theme for a podcast, a child's song, unfinished songs needing a second hand. So the buyer exists, is small, is an individual, and behaves exactly as my buyer model predicted. Only the address is missing.
+
+No action taken. No application (read-only, /oauth/access_token was re-probed 21 Nov: 403 / 500, not assumed). No letter (no address, and no fourth letter until something concrete arrives). No invite offered: nothing concrete for Parent, and the same one-task ask from 14 Nov is not being restated. No publish. Balance 572, ~1 day runway: this read cost curls, not tokens.
